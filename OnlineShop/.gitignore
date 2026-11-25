@@ -1,0 +1,177 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.docstates
+*.user
+*.userosscache
+*.sln.user
+*.suo
+.vscode/settings.json
+.vscode/launch.json
+
+# Local development configuration
+app-config.local.yaml
+appsettings.Development.json
+appsettings.Local.json
+appsettings.local.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (SQLite)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Packages
+packages/
+.packages/
+
+# Entity Framework
+Migrations/
+*.mdf
+*.ldf
+
+# Node modules (if using npm/yarn for frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test results
+TestResults/
+*.trx
+
+coverage/
+.coverage
+
+# VS Code extensions
+.vscode/extensions/
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+*.sln.iml
+riderModule.xml
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Rider
+.idea/
+*.sln.iml
+*.sln.rider
+
+# BinLogs
+BinLogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Azure-specific
+PublishProfiles/
+*.PublishSettings
+*.azurePubxml
+
+# Local web server files
+*.log
+
+# Rider ignored files
+.idea/
+*.sln.iml
+
+# Cake build artifacts
+tools/
+!tools/
+
+# Uploaded user files (if your app handles uploads)
+wwwroot/uploads/
+wwwroot/temp/
+
+# IDE
+.idea
+.idea/
+*.swp
+*.swo
+*~
+
+# Visual Studio Code
+.vscode
+
+# macOS
+.DS_Store
+
+# Linux
+.directory
+
+# Secrets (never commit these)
+secrets/
+secrets.json
+app-secrets.json
+.env.production
+connection_strings.json
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+
+packages/
+.nuget/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.back
+~*
+
+# Log files
+*.log
+logs/
+
+# Azure
+.publishsettings
+
+# Rider
+.idea_modules
+.idea
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+*.orig
+*.rej
