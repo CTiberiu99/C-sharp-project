@@ -1,7 +1,6 @@
 ﻿using System;
 
 namespace OnlineShop.Models;
-
 public class Message
 {
     public int Id { get; set; }
